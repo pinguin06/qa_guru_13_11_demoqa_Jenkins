@@ -49,7 +49,7 @@ public class PracticeFormTestWithLocator extends TestBase {
             $(byText("Maths")).click();
             $("#hobbiesWrapper").$(byText("Sports")).click();
             $("#hobbiesWrapper").$(byText("Music")).click();
-            $("#uploadPicture").uploadFile(new File("src\\test\\resources\\1.txt"));
+            $("#uploadPicture").uploadFile(new File("src/test/resources/1.txt"));
             $("#currentAddress").setValue("Saint Petersburg");
             $("#state").click();
             $(byText("Haryana")).click();
